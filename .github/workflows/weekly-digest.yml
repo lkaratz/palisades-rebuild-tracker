@@ -1,0 +1,57 @@
+name: Weekly digest
+
+on:
+  schedule:
+    # Monday morning Pacific time — 14:00 UTC = 7 AM PDT / 6 AM PST
+    - cron: '0 14 * * MON'
+  workflow_dispatch:
+
+jobs:
+  weekly-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate digest
+        id: digest
+        run: |
+          python scripts/weekly_digest.py > /tmp/digest.md
+          cat /tmp/digest.md
+          # If first line starts with "## " the digest has content for an issue.
+          # Otherwise it's a "# No changes" comment — skip the issue.
+          if head -1 /tmp/digest.md | grep -q "^## "; then
+            echo "has_content=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_content=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create digest issue
+        if: steps.digest.outputs.has_content == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Palisades Tracker · Weekly digest ($(date -u +%Y-%m-%d))" \
+            --body-file /tmp/digest.md
+
+      - name: Commit snapshot update
+        run: |
+          git config user.name  "palisades-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/snapshot_last_week.json
+          if git diff --staged --quiet; then
+            echo "No snapshot changes to commit."
+          else
+            git commit -m "data: weekly snapshot update"
+            git push
+          fi
