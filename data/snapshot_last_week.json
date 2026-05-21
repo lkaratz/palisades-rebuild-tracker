@@ -1,21 +1,25 @@
 {
-  "last_updated": "2026-05-15T17:00:00Z",
+  "last_updated": "2026-05-20T21:17:05.242140+00:00",
   "source": "https://www.ca.gov/lafires/rebuilding-la/",
   "source_note": "Numbers sourced from California state rebuilding dashboard, which aggregates official data from each jurisdiction. The City of Los Angeles section reflects Palisades Fire rebuilding within City limits.",
   "jurisdictions": {
     "city_of_la": {
       "applications_received": 1424,
-      "permits_issued": 857,
       "avg_days_to_permit": 51,
-      "avg_days_in_review": 16
+      "avg_days_in_review": 16,
+      "permits_issued": 857
     },
     "la_county": {
       "avg_days_to_permit": 186,
       "avg_days_in_review": 43
     },
     "city_of_malibu": {
-      "permits_issued": 679,
-      "applications_received": 243
+      "avg_days_to_permit": 186,
+      "avg_days_in_review": 43
+    },
+    "city_of_pasadena": {
+      "avg_days_to_permit": 115,
+      "avg_days_in_review": 44
     }
   },
   "under_construction": 348,
@@ -42,7 +46,7 @@
     {
       "date": "2025-03-04",
       "title": "First rebuild permit issued",
-      "detail": "Day 57 post-fire — roughly twice as fast as the first permits issued after the Camp and Woolsey fires.",
+      "detail": "Day 57 post-fire \u2014 roughly twice as fast as the first permits issued after the Camp and Woolsey fires.",
       "tone": "milestone"
     },
     {
@@ -63,7 +67,7 @@
     {
       "date": "2025-10",
       "title": "Standard Plan Pilot Program launches",
-      "detail": "Library of pre-approved single-family designs — homeowners can skip full plan check by selecting a stock plan."
+      "detail": "Library of pre-approved single-family designs \u2014 homeowners can skip full plan check by selecting a stock plan."
     },
     {
       "date": "2025-11",
@@ -88,18 +92,39 @@
     }
   ],
   "neighborhoods": [
-    { "name": "Alphabet Streets", "share": 31 },
-    { "name": "Via Bluffs", "share": 19 },
-    { "name": "El Medio Bluffs", "share": 15 },
-    { "name": "Marquez Knolls", "share": 12 },
-    { "name": "Highlands", "share": 9 },
-    { "name": "Castellammare", "share": 6 },
-    { "name": "Other", "share": 8 }
+    {
+      "name": "Alphabet Streets",
+      "share": 31
+    },
+    {
+      "name": "Via Bluffs",
+      "share": 19
+    },
+    {
+      "name": "El Medio Bluffs",
+      "share": 15
+    },
+    {
+      "name": "Marquez Knolls",
+      "share": 12
+    },
+    {
+      "name": "Highlands",
+      "share": 9
+    },
+    {
+      "name": "Castellammare",
+      "share": 6
+    },
+    {
+      "name": "Other",
+      "share": 8
+    }
   ],
   "resources": [
     {
       "name": "LADBS Palisades Rebuild Portal",
-      "desc": "City of LA Department of Building & Safety — hourly-updated permit dashboard",
+      "desc": "City of LA Department of Building & Safety \u2014 hourly-updated permit dashboard",
       "url": "https://dbs.lacity.gov/homeowners"
     },
     {
@@ -109,7 +134,7 @@
     },
     {
       "name": "LA Strong: Return & Rebuild",
-      "desc": "City of LA recovery hub — debris removal, ROE submissions, final inspections",
+      "desc": "City of LA recovery hub \u2014 debris removal, ROE submissions, final inspections",
       "url": "https://recovery.lacity.gov/"
     },
     {
