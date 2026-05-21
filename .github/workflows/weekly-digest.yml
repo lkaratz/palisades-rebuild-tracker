@@ -1,0 +1,62 @@
+name: Weekly digest
+
+on:
+  schedule:
+    # Monday morning Pacific time — 16:00 UTC = 9 AM PDT / 8 AM PST.
+    # Deliberately offset from daily-update.yml (which runs at 13:00 and
+    # 14:00 UTC) so the two workflows never race to push to the repo.
+    - cron: '0 16 * * MON'
+  workflow_dispatch:
+
+jobs:
+  weekly-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate digest
+        id: digest
+        run: |
+          python scripts/weekly_digest.py > /tmp/digest.md
+          cat /tmp/digest.md
+          # If the first line starts with "## " the digest has content for an
+          # issue. Otherwise it's a "# No changes" comment — skip the issue.
+          if head -1 /tmp/digest.md | grep -q "^## "; then
+            echo "has_content=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_content=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create digest issue
+        if: steps.digest.outputs.has_content == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Palisades Tracker · Weekly digest ($(date -u +%Y-%m-%d))" \
+            --body-file /tmp/digest.md
+
+      - name: Commit snapshot update
+        run: |
+          git config user.name  "palisades-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/snapshot_last_week.json
+          if git diff --staged --quiet; then
+            echo "No snapshot changes to commit."
+          else
+            git commit -m "data: weekly snapshot update"
+            # Safety net: if another workflow pushed in the meantime,
+            # pull-rebase before pushing so we don't get a rejection.
+            git pull --rebase origin main
+            git push
+          fi
