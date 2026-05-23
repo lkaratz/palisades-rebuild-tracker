@@ -88,7 +88,13 @@
     {
       "date": "2026-04-30",
       "title": "Property tax payment deadline",
-      "detail": "Final day for fire-impacted property owners to make payments under the modified assessment program."
+     "detail": "Final day for fire-impacted property owners to make payments under the modified assessment program."
+    },
+    {
+      "date": "2026-05-19",
+      "title": "LA County establishes Disaster Recovery Rebuild Authority",
+      "detail": "Board of Supervisors votes unanimously to create a new authority to coordinate long-term rebuilding efforts across the Palisades and Eaton fire footprints, housed within the Department of Public Works.",
+      "tone": "milestone"
     }
   ],
   "neighborhoods": [
