@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T16:16:26.124890+00:00",
+  "last_updated": "2026-05-23T17:40:25.471460+00:00",
   "source": "https://www.ca.gov/lafires/rebuilding-la/",
   "source_note": "Numbers sourced from California state rebuilding dashboard, which aggregates official data from each jurisdiction. The City of Los Angeles section reflects Palisades Fire rebuilding within City limits.",
   "jurisdictions": {
@@ -88,7 +88,7 @@
     {
       "date": "2026-04-30",
       "title": "Property tax payment deadline",
-     "detail": "Final day for fire-impacted property owners to make payments under the modified assessment program."
+      "detail": "Final day for fire-impacted property owners to make payments under the modified assessment program."
     },
     {
       "date": "2026-05-19",
