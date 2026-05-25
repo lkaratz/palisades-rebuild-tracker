@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T21:17:05.242140+00:00",
+  "last_updated": "2026-05-25T19:07:55.958774+00:00",
   "source": "https://www.ca.gov/lafires/rebuilding-la/",
   "source_note": "Numbers sourced from California state rebuilding dashboard, which aggregates official data from each jurisdiction. The City of Los Angeles section reflects Palisades Fire rebuilding within City limits.",
   "jurisdictions": {
@@ -22,8 +22,14 @@
       "avg_days_in_review": 44
     }
   },
-  "under_construction": 348,
-  "certificates_of_occupancy": 17,
+  "under_construction": 400,
+  "certificates_of_occupancy": 5,
+  "commercial": {
+    "structures_damaged": 100,
+    "permits_issued": 50,
+    "destroyed_rebuilt": 0,
+    "as_of_note": "Per Council Member Traci Park, early 2026. Includes library, rec center, and YMCA in active planning. No destroyed commercial buildings have been fully rebuilt yet \u2014 Gelson's broke ground first in spring 2026."
+  },
   "context": {
     "structures_destroyed_palisades": 6837,
     "approx_homes_lost": 7000,
@@ -31,6 +37,273 @@
     "first_permit_issued_date": "2025-03-04",
     "days_to_first_permit": 57
   },
+  "businesses": [
+    {
+      "name": "CVS Pharmacy",
+      "category": "Pharmacy",
+      "address": "864 Swarthmore Ave",
+      "status": "open",
+      "status_date": "2025-09-19",
+      "detail": "First major retailer to return. Building was damaged, not destroyed \u2014 fully repaired and expanded. Now serves first responders and construction workers as well as residents.",
+      "url": "https://palisadesnews.com/cvs-pharmacy-reopens-on-swarthmore/"
+    },
+    {
+      "name": "Chipotle",
+      "category": "Restaurant",
+      "address": "15207 Sunset Blvd",
+      "status": "open",
+      "status_date": "2025-03-20",
+      "detail": "Among the earliest national chains to return. Building was damaged, repaired.",
+      "url": "https://www.palipost.com/additional-restaurants-reopen-within-pacific-palisades/"
+    },
+    {
+      "name": "Anawalt Lumber",
+      "category": "Hardware",
+      "address": "881 Alma Real Dr",
+      "status": "open",
+      "status_date": "2025",
+      "detail": "Family-owned hardware store, vital for rebuilding effort. Returned among the first wave of reopenings.",
+      "url": "https://www.costar.com/article/1815450896/"
+    },
+    {
+      "name": "Village General Store",
+      "category": "Convenience",
+      "address": "Sunset Blvd",
+      "status": "open",
+      "status_date": "2025-02-15",
+      "detail": "One of the first businesses to reopen after the fire \u2014 by mid-February 2025, only weeks after the blaze.",
+      "url": "https://www.palipost.com/additional-restaurants-reopen-within-pacific-palisades/"
+    },
+    {
+      "name": "Pacific West General Store",
+      "category": "Convenience",
+      "address": "17299 Pacific Coast Hwy",
+      "status": "open",
+      "status_date": "2025-03",
+      "detail": "Gas station and convenience store on PCH. Connected Taco Bell reopened March 17, 2025.",
+      "url": "https://www.palipost.com/additional-restaurants-reopen-within-pacific-palisades/"
+    },
+    {
+      "name": "Moku Sushi",
+      "category": "Restaurant",
+      "address": "Palisades Dr",
+      "status": "open",
+      "status_date": "2025-04-01",
+      "detail": "Local sushi spot reopened April 1, 2025 in the Highlands area.",
+      "url": "https://www.palipost.com/additional-restaurants-reopen-within-pacific-palisades/"
+    },
+    {
+      "name": "Spruzzo Palisades",
+      "category": "Restaurant",
+      "address": "Highlands",
+      "status": "open",
+      "status_date": "2025",
+      "detail": "Italian restaurant in the Highlands. Owner reports sales still below pre-fire levels but business confidence growing.",
+      "url": "https://spectrumnews1.com/ca/southern-california/business/2025/11/19/palisades-businesses-coming-back"
+    },
+    {
+      "name": "Gladstones",
+      "category": "Restaurant",
+      "address": "17300 Pacific Coast Hwy",
+      "status": "open",
+      "status_date": "2025-07-04",
+      "detail": "Iconic PCH seafood spot reopened deck for limited dining on July 4, 2025. Full interior renovation still underway. Saved from total loss by LAFD Engine 238.",
+      "url": "https://www.cbsnews.com/losangeles/news/gladstones-pacific-palisades-set-to-reopen-4th-of-july"
+    },
+    {
+      "name": "Duke's Malibu",
+      "category": "Restaurant",
+      "address": "Pacific Coast Hwy, Malibu",
+      "status": "open",
+      "status_date": "2026-03-13",
+      "detail": "Reopened after fourteen months of recovery from fire damage and subsequent mudslides.",
+      "url": "https://www.nypost.com/2026/03/13/dukes-malibu-reopens/"
+    },
+    {
+      "name": "Gelson's",
+      "category": "Grocery",
+      "address": "15424 Sunset Blvd",
+      "status": "rebuilding",
+      "status_date": "2026-03-26",
+      "detail": "Announced March 2026 that they will return to longtime location. Construction barriers now up. No reopening date set \u2014 likely 2027+.",
+      "url": "https://mynewsla.com/business/2026/03/26/gelsons-plans-to-rebuild-pacific-palisades-store-after-fire/"
+    },
+    {
+      "name": "Ralphs",
+      "category": "Grocery",
+      "address": "15120 W Sunset Blvd",
+      "status": "planning",
+      "status_date": "2025",
+      "detail": "Destroyed in fire. Kroger has stated intent to return but no construction timeline announced.",
+      "url": "https://www.costar.com/article/1815450896/"
+    },
+    {
+      "name": "Palisades Village",
+      "category": "Retail Center",
+      "address": "Sunset Blvd & Swarthmore Ave",
+      "status": "rebuilding",
+      "status_date": "2026-08",
+      "detail": "Caruso's open-air retail center. $60M renovation; tenants expected to open August 2026. Largely untouched by fire structurally but closed due to surrounding devastation.",
+      "url": "https://www.yahoo.com/news/palisades-village-slated-reopen-2026-144500904.html"
+    },
+    {
+      "name": "Erewhon",
+      "category": "Grocery",
+      "address": "Palisades Village",
+      "status": "rebuilding",
+      "status_date": "2026-08",
+      "detail": "Returning as anchor grocer, caf\u00e9 and tonic bar at Palisades Village. Opens with the center in August 2026.",
+      "url": "https://www.circlingthenews.com/erewhon-to-return-to-palisades-in-2026/"
+    },
+    {
+      "name": "Spacca Tutto",
+      "category": "Restaurant (new)",
+      "address": "Palisades Village",
+      "status": "planning",
+      "status_date": "2026-08",
+      "detail": "New Italian steakhouse from Nancy Silverton and Rick Caruso, anchoring Palisades Village. First-time concept opening with the center.",
+      "url": "https://spectrumnews1.com/ca/southern-california/business/2025/11/19/palisades-businesses-coming-back"
+    },
+    {
+      "name": "Business Block (Cosa Nostra & Starbucks)",
+      "category": "Mixed-Use",
+      "address": "Sunset Blvd",
+      "status": "rebuilding",
+      "status_date": "2025",
+      "detail": "Historic Spanish Colonial Revival complex destroyed in fire. Construction barricades up; owner rebuilding. Cosa Nostra Trattoria currently focused on Westlake location.",
+      "url": "https://www.costar.com/article/1815450896/"
+    },
+    {
+      "name": "Palisades Plaza (Chase Bank)",
+      "category": "Office Complex",
+      "address": "15200 Sunset Blvd",
+      "status": "planning",
+      "status_date": null,
+      "detail": "Chase Bank-anchored office complex destroyed in fire. Rebuild status uncertain.",
+      "url": "https://www.costar.com/article/1815450896/"
+    },
+    {
+      "name": "Reel Inn",
+      "category": "Restaurant",
+      "address": "Pacific Coast Hwy, Malibu",
+      "status": "closed",
+      "status_date": "2025",
+      "detail": "Lease terminated by California state due to licensing issues post-fire. Iconic seafood shack will not return at original location.",
+      "url": "https://laist.com/news/food/malibu-palisades-fire-restaurants-status-one-year-anniversary"
+    },
+    {
+      "name": "Cholada Thai",
+      "category": "Restaurant",
+      "address": "Pacific Coast Hwy, Malibu",
+      "status": "closed",
+      "status_date": "2025",
+      "detail": "Lease terminated alongside Reel Inn. Long-standing PCH Thai institution will not return.",
+      "url": "https://laist.com/news/food/malibu-palisades-fire-restaurants-status-one-year-anniversary"
+    }
+  ],
+  "civic_infrastructure": [
+    {
+      "name": "Palisades Charter High School",
+      "category": "School",
+      "address": "15777 Bowdoin St",
+      "status": "open",
+      "status_date": "2026-01-27",
+      "detail": "Students returned to campus January 27, 2026 \u2014 over 30% of classrooms had been destroyed. Currently operating with repaired and temporary facilities. Permanent rebuild targeted for 2028 as part of $604M LAUSD project.",
+      "url": "https://www.thecentersquare.com/california/article_babb3abf-8afe-4342-9c17-78308e8714e5.html"
+    },
+    {
+      "name": "Marquez Charter Elementary School",
+      "category": "School",
+      "address": "16821 Marquez Ave",
+      "status": "temporary",
+      "status_date": "2025-09",
+      "detail": "Original campus burned to the ground. Classes have been held in temporary modular buildings since September 2025. Permanent rebuild expected by 2028.",
+      "url": "https://www.thecentersquare.com/california/article_babb3abf-8afe-4342-9c17-78308e8714e5.html"
+    },
+    {
+      "name": "Palisades Charter Elementary School",
+      "category": "School",
+      "address": "800 Via de la Paz",
+      "status": "temporary",
+      "status_date": "2025",
+      "detail": "Damaged in fire. Part of LAUSD's $604M three-school Pacific Palisades rebuild project. Permanent campus expected 2028, funded by Measure US bond.",
+      "url": "https://www.thecentersquare.com/california/article_babb3abf-8afe-4342-9c17-78308e8714e5.html"
+    },
+    {
+      "name": "Palisades Recreation Center",
+      "category": "Recreation",
+      "address": "851 Alma Real Dr",
+      "status": "rebuilding",
+      "status_date": "2026-01",
+      "detail": "Public-private partnership announced April 2025 (LA Strong Sports, Steadfast LA, others) to fully rebuild. Groundbreaking January 2026. New playground opened July 2025 as interim community space.",
+      "url": "https://mayor.lacity.gov/news/mayor-bass-announces-first-certificate-occupancy-issued-home-being-rebuilt-pacific-palisades"
+    },
+    {
+      "name": "Palisades Library (LAPL)",
+      "category": "Library",
+      "address": "861 Alma Real Dr",
+      "status": "temporary",
+      "status_date": "2026",
+      "detail": "Temporary library facility planned to open near old rec center in early 2026 \u2014 computers, study spaces, Wi-Fi, printing, community rooms. Permanent rebuild on original site in progress.",
+      "url": "https://mayor.lacity.gov/news/mayor-bass-announces-first-certificate-occupancy-issued-home-being-rebuilt-pacific-palisades"
+    },
+    {
+      "name": "Lowe Family YMCA",
+      "category": "Community",
+      "address": "Via de la Paz",
+      "status": "rebuilding",
+      "status_date": "2026-spring",
+      "detail": "Destroyed in fire after 60+ years serving Palisades-Malibu families. $25M capital campaign launched summer 2025; Bank of America gave first major $1M grant January 2026. Two new campuses planned: original Via de la Paz site + nearby Simon Meadow. Groundbreaking spring 2026.",
+      "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/01/bofa-awards--1-million-to-rebuild-pacific-palisades-ymca-destroy.html"
+    },
+    {
+      "name": "Palisades Playground",
+      "category": "Recreation",
+      "address": "851 Alma Real Dr",
+      "status": "open",
+      "status_date": "2025-07",
+      "detail": "New playground opened mid-late July 2025 with ribbon-cutting. Serves as interim community gathering space while the rec center is rebuilt.",
+      "url": "https://palisadesnews.com/new-playground-library-services-tennis-courts-and-more-coming-to-palisades-rec-center/"
+    }
+  ],
+  "help_resources": [
+    {
+      "name": "City of LA One-Stop Permit Center",
+      "desc": "In-person permit and rebuilding paperwork help. Open Mon\u2013Fri 10am\u20138pm, Sat\u2013Sun 10am\u20134pm.",
+      "address": "1828 W. Sawtelle Blvd., Los Angeles",
+      "url": "https://recovery.lacity.gov/"
+    },
+    {
+      "name": "LA County One-Stop Permit Centers",
+      "desc": "Walk-in support in Altadena and Calabasas. Includes rebuild consultations and SCE appointments.",
+      "address": "Altadena & Calabasas",
+      "url": "https://pw.lacounty.gov/rebuild/palisades/obtainpermit"
+    },
+    {
+      "name": "LADBS Pre-Approved Standard Plan Pilot Program",
+      "desc": "Library of pre-approved single-family home designs that skip full plan check. Can shave 10%+ off rebuild cost.",
+      "address": null,
+      "url": "https://dbs.lacity.gov/homeowners"
+    },
+    {
+      "name": "Archistar AI Plan Check Tool",
+      "desc": "Free AI-powered plan review \u2014 upload your rebuilding plans for instant feedback before submitting to City/County for final approval.",
+      "address": null,
+      "url": "https://recovery.lacounty.gov/rebuilding/"
+    },
+    {
+      "name": "EPIC-LA \u2014 LA County Online Permitting",
+      "desc": "Apply for rebuilding permits online, request inspections, determine what permits you need for your property.",
+      "address": null,
+      "url": "https://epicla.lacounty.gov/"
+    },
+    {
+      "name": "LADWP Palisades Inspections & Permitting Support",
+      "desc": "Utility-specific support center for power, water, electrical panel upgrades, and meter spots.",
+      "address": null,
+      "url": "https://www.ladwp.com/community/restoration-and-rebuilding-efforts/palisades-inspections-and-permitting-support-center"
+    }
+  ],
   "milestones": [
     {
       "date": "2025-01-07",
@@ -42,6 +315,11 @@
       "date": "2025-01-13",
       "title": "Mayor Bass signs Executive Order 1",
       "detail": "Suspends permit fees; waives discretionary review for like-for-like rebuilds; sets up streamlined LADBS pathway."
+    },
+    {
+      "date": "2025-02-15",
+      "title": "First business reopens",
+      "detail": "Village General Store on Sunset Blvd becomes the first Pacific Palisades business to reopen post-fire \u2014 just five weeks after the blaze."
     },
     {
       "date": "2025-03-04",
@@ -57,7 +335,7 @@
     {
       "date": "2025-04",
       "title": "Debris removal substantially complete",
-      "detail": "USACE and contractors finish clearance on nearly all parcels in the City of LA portion of the burn area."
+      "detail": "USACE and contractors finish clearance on nearly all parcels in the City of LA portion of the burn area \u2014 nearly a year ahead of original expectations."
     },
     {
       "date": "2025-06-30",
@@ -65,14 +343,25 @@
       "detail": "State CEQA reform shortens agency review timelines, expands Permit Streamlining Act, adds near-miss review."
     },
     {
+      "date": "2025-07",
+      "title": "New Palisades playground opens",
+      "detail": "Interim community space at the Rec Center site \u2014 first piece of civic infrastructure to come back online."
+    },
+    {
+      "date": "2025-09-19",
+      "title": "CVS first major retailer to reopen",
+      "detail": "Pharmacy on Swarthmore Ave is first national chain to fully return. Building was repaired rather than rebuilt.",
+      "tone": "milestone"
+    },
+    {
       "date": "2025-10",
       "title": "Standard Plan Pilot Program launches",
       "detail": "Library of pre-approved single-family designs \u2014 homeowners can skip full plan check by selecting a stock plan."
     },
     {
-      "date": "2025-11",
-      "title": "1,000-permit milestone",
-      "detail": "LADBS crosses 1,000 issued permits in Palisades; ~340 projects confirmed under construction.",
+      "date": "2025-11-21",
+      "title": "First certificate of occupancy issued",
+      "detail": "Showcase home built by Thomas James Homes at 915 N Kagawa St becomes the first rebuilt home to be legally cleared for move-in. LADBS crosses 1,000 issued permits the same month.",
       "tone": "milestone"
     },
     {
@@ -82,13 +371,41 @@
     },
     {
       "date": "2026-01-07",
-      "title": "One-year anniversary",
-      "detail": "Across Palisades and Eaton: 2,600+ residential permits issued, ~13,000 homes lost."
+      "title": "One-year anniversary \u00b7 First homeowner CofO",
+      "detail": "On the fire's anniversary, Cover delivers the first ground-up rebuild to an actual homeowner \u2014 Sue Labella, a 48-year Palisades resident \u2014 using all-steel non-combustible panels. Across both fires: 2,600+ residential permits issued.",
+      "tone": "milestone"
+    },
+    {
+      "date": "2026-01-09",
+      "title": "Bank of America commits $1M to YMCA rebuild",
+      "detail": "First major corporate grant to the Lowe Family YMCA's $25M capital campaign. Groundbreaking targeted for spring 2026 across two campuses."
+    },
+    {
+      "date": "2026-01-27",
+      "title": "Palisades Charter High School returns to campus",
+      "detail": "Students and staff return to repaired and temporary facilities one year after the fire. 30% of classrooms had been destroyed."
+    },
+    {
+      "date": "2026-02-03",
+      "title": "City Council waives rebuild fees",
+      "detail": "LA City Council unanimously approves full waiver of permit and plan check fees for fire-impacted private property."
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Gelson's announces rebuild",
+      "detail": "Upscale grocer commits to returning to longtime Sunset Blvd location, becoming the first major destroyed retail building to enter active rebuild.",
+      "tone": "milestone"
     },
     {
       "date": "2026-04-30",
       "title": "Property tax payment deadline",
       "detail": "Final day for fire-impacted property owners to make payments under the modified assessment program."
+    },
+    {
+      "date": "2026-05-19",
+      "title": "LA County establishes Disaster Recovery Rebuild Authority",
+      "detail": "Board of Supervisors votes unanimously to create a new authority to coordinate long-term rebuilding efforts across the Palisades and Eaton fire footprints, housed within the Department of Public Works.",
+      "tone": "milestone"
     }
   ],
   "neighborhoods": [
@@ -129,7 +446,7 @@
     },
     {
       "name": "LA County Permitting Progress Dashboard",
-      "desc": "County tracker for both Palisades and Eaton fire zones",
+      "desc": "County tracker for both Palisades and Eaton fire zones \u2014 refreshes every 3 hours",
       "url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
     },
     {
@@ -149,7 +466,7 @@
     },
     {
       "name": "Palisadian-Post Rebuild Dashboard",
-      "desc": "Weekly published dashboard using Pali Builds data",
+      "desc": "Weekly published dashboard using Pali Builds data, updated April 30, 2026",
       "url": "https://palipost.com/pacific-palisades-rebuild-dashboard/"
     }
   ]
