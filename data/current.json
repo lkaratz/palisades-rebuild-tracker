@@ -1,25 +1,31 @@
 {
-  "last_updated": "2026-06-01T22:38:32.699114+00:00",
+  "last_updated": "2026-06-02T22:12:32.534705+00:00",
   "source": "https://www.ca.gov/lafires/rebuilding-la/",
   "source_note": "Numbers sourced from California state rebuilding dashboard, which aggregates official data from each jurisdiction. The City of Los Angeles section reflects Palisades Fire rebuilding within City limits.",
   "jurisdictions": {
     "city_of_la": {
-      "applications_received": 1424,
-      "avg_days_to_permit": 51,
-      "avg_days_in_review": 16,
-      "permits_issued": 857
+      "applications_received": 5016,
+      "avg_days_to_permit": 66,
+      "avg_days_in_review": 17,
+      "permits_issued": 3036
     },
     "la_county": {
-      "avg_days_to_permit": 186,
-      "avg_days_in_review": 43
+      "applications_received": 3576,
+      "avg_days_to_permit": 199,
+      "avg_days_in_review": 46,
+      "permits_issued": 2667
     },
     "city_of_malibu": {
-      "avg_days_to_permit": 186,
-      "avg_days_in_review": 43
+      "applications_received": 262,
+      "avg_days_to_permit": 223,
+      "avg_days_in_review": 71,
+      "permits_issued": 50
     },
     "city_of_pasadena": {
-      "avg_days_to_permit": 115,
-      "avg_days_in_review": 44
+      "applications_received": 63,
+      "avg_days_to_permit": 130,
+      "avg_days_in_review": 45,
+      "permits_issued": 39
     }
   },
   "under_construction": 400,
